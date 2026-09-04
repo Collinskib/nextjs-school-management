@@ -248,7 +248,7 @@ export default function DashboardPage() {
       <main className="relative z-10 mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         {/* Hero */}
         <section className="relative overflow-hidden rounded-[2.5rem] border border-slate-100 bg-white p-8 shadow-2xl shadow-slate-200/50 sm:p-10">
-          <div className="absolute inset-x-0 top-0 h-48 bg-gradient-to-r from-indigo-400 via-violet-400 to-rose-400">
+          <div className="absolute inset-x-0 top-0 h-48 bg-[length:200%_100%] animate-[gradient-x_8s_ease_infinite] bg-gradient-to-r from-indigo-400 via-violet-400 to-rose-400">
             <WaveDivider />
           </div>
 
@@ -292,7 +292,7 @@ export default function DashboardPage() {
                 key={stat.label}
                 className="group relative overflow-hidden rounded-[2.5rem] border border-slate-100 bg-white shadow-xl shadow-slate-200/40 transition-all hover:-translate-y-1 hover:shadow-2xl"
               >
-                <div className={`relative h-32 bg-gradient-to-br ${stat.color}`}>
+                <div className={`relative h-32 bg-[length:200%_200%] animate-[gradient-x_6s_ease_infinite] bg-gradient-to-br ${stat.color}`}>
                   <WaveDivider />
                   <div className="absolute right-5 top-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-white/30 text-white shadow-lg backdrop-blur">
                     <Icon className="h-6 w-6" />
@@ -343,7 +343,7 @@ export default function DashboardPage() {
 
             {/* Recent students */}
             <div className="relative overflow-hidden rounded-[2.5rem] border border-slate-100 bg-white p-6 shadow-xl shadow-slate-200/40 sm:p-8">
-              <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-r from-emerald-400 to-sky-400">
+              <div className="absolute inset-x-0 top-0 h-24 bg-[length:200%_100%] animate-[gradient-x_7s_ease_infinite] bg-gradient-to-r from-emerald-400 via-teal-300 to-sky-400">
                 <WaveDivider color="#ffffff" />
               </div>
               <div className="relative pt-14">
@@ -430,7 +430,7 @@ export default function DashboardPage() {
             </div>
 
             {/* Pro tip */}
-            <div className="relative overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-indigo-500 via-violet-500 to-rose-400 p-6 text-white shadow-xl shadow-indigo-300/40 sm:p-8">
+            <div className="relative overflow-hidden rounded-[2.5rem] bg-[length:200%_200%] animate-[gradient-x_8s_ease_infinite] bg-gradient-to-br from-indigo-500 via-violet-500 to-rose-400 p-6 text-white shadow-xl shadow-indigo-300/40 sm:p-8">
               <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-2xl bg-white/20">
                 <Bell className="h-6 w-6" />
               </div>
