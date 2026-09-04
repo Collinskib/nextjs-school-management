@@ -4,7 +4,10 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-const DJANGO_API = "http://127.0.0.1:8000";
+const DJANGO_API =
+  typeof window !== "undefined"
+    ? `http://${window.location.hostname}:8000`
+    : "http://127.0.0.1:8000";
 
 interface RecentStudent {
   first_name: string;
