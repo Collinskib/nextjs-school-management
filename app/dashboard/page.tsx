@@ -245,6 +245,9 @@ export default function DashboardPage() {
         <div className="absolute bottom-20 left-1/3 h-72 w-72 rounded-full bg-amber-200/30 blur-3xl"></div>
       </div>
 
+      {/* Subtle line grid overlay */}
+      <div className="pointer-events-none fixed inset-0 z-0 bg-line-grid opacity-30"></div>
+
       <main className="relative z-10 mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         {/* Hero */}
         <section className="relative overflow-hidden rounded-[2.5rem] border border-slate-100 bg-white p-8 shadow-2xl shadow-slate-200/50 sm:p-10">
