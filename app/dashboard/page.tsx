@@ -246,7 +246,7 @@ export default function DashboardPage() {
       </div>
 
       {/* Subtle line grid overlay */}
-      <div className="pointer-events-none fixed inset-0 z-0 bg-line-grid opacity-30"></div>
+      <div className="pointer-events-none fixed inset-0 z-0 bg-line-grid opacity-30 animate-grid"></div>
 
       <main className="relative z-10 mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         {/* Hero */}
